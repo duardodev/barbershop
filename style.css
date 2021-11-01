@@ -109,7 +109,7 @@ body {
 }
 
 .section {
-  padding: calc(1.5rem + var(--header-height)) 0;
+  padding: calc(1.4rem + var(--header-height)) 0;
 }
 
 .section .title {
@@ -404,6 +404,11 @@ nav.show div.icon-close {
   background: white;
 }
 
+#testimonials {
+  position: relative;
+  overflow: hidden;
+}
+
 #testimonials .container {
   margin-left: 0;
   margin-right: 0;
@@ -412,7 +417,7 @@ nav.show div.icon-close {
 #testimonials header {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-bottom: -3rem;
+  margin-bottom: 0;
 }
 
 #testimonials blockquote {
@@ -452,7 +457,11 @@ nav.show div.icon-close {
 /* ====== SWIPER =========*/
 .swiper-slide {
   height: auto;
-  padding: 4rem 1rem;
+  padding: 2.5rem 1rem;
+}
+
+.swiper-pagination {
+  margin-bottom: 2.5rem;
 }
 
 .swiper-pagination-bullet {
@@ -685,7 +694,7 @@ footer .social-networks a:hover {
 
   /*=== FOOTER ===*/
   footer.section {
-    padding: 3.5rem 0;
+    padding: 4rem 0;
   }
 
   footer .logo i {
