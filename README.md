@@ -1,4 +1,4 @@
-# Habituate (Next.js)
+# Barbershop
 
 Landing page responsiva para uma barbearia feita com HTML, CSS e JavaScript.
 
